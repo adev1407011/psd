@@ -1,0 +1,58 @@
+<html>
+<head>
+<title>Hyndai car services</title>
+<style>
+a{ text-decoration:none;
+color:grey;}
+a:hover{color:black;}
+</style>
+</head>
+<body style="background-image:url('hyndai back.png');background-size:cover;">
+<div style="display:flex; flex-direction:row;border: solid grey; height:50pt; align-items:center; background:#F5F5F5;" >
+<div style="margin-left:30px;"> <img src="hyundailogo.png" height="20pt" width="20pt"></div>
+<div style="background-color:#F5F5F5; font-family:Arial Black;font-style:italic;color:#1034A6;">Hyundai</div>
+<div style="font-family:Calibri;margin-left:700px; color:pink;"><a href="find a car.html" target="_blank">Find a car</a></div>
+<div style="font-family:Calibri;margin-left:50px; color:pink;"><a href="list of cars.html" target="_blank">List of cars</a></div>
+<div style="font-family:Calibri;margin-left:50px; color:pink;"><a href="Hyundai story.html" target="_blank">Hyundai story</a></div>
+<div style="margin-left:100pt"> <input type="image" src="sign in logo.png"></div>
+<div style="margin-left:5pt"> <input type="image" src="location logo.png"></div>  
+<div style="margin-left:5pt"> <input type="image" src="share logo.png"></div> 
+<div style="margin-left:5pt"> <input type="image" src="search logo.png"></div> 
+</div><br><br><br>
+
+<fieldset>
+<legend style="color:white; font-family:Arial;font-weight:bold;">Fill your requirements for Car</legend>
+<form style="background:#F0F8FF;" action="thanks.html" target="_blank">
+Car Type on Fuels:<br><br>
+<input type="radio" name="type" value="petrol" >Petrol<br><br>
+<input type="radio" name="type" value="diesel"  >Diesel<br><br>
+<input type="radio" name="type" value="electric" >Electric<br><br>
+<input type="radio" name="type" value="CNG"  >CNG<br><br>
+
+Car Style:
+<select name="cartype"  required>
+<option value="Santro">Santro</option>
+<option value="creta">creta</option>
+<option value="Verna">Verna</option>
+<option value="i10">i10</option>
+<option value="i20">i20</option>
+<option value="SUV">SUV</option>
+</select><br>
+<br>
+Amount Range:<br>
+<select name="amount range" size="5" required>
+<option value="less than 10 L"  >Less than 10 L</option>
+<option value="between 10-20L"  >Between 10-20L</option>
+<option value="between 20-50L" >Between 20-50L</option>
+<option value="EMI"  >EMI</option>
+</select><br>
+<br>
+Gear:<br>
+<input type="radio" name="gear" value="Auto">--Auto<br>
+<input type="radio" name="gear" value="mannual">--Mannual<br>
+<br><br>
+<input type="submit" value="Start New Journey">
+
+</form>
+</body>
+</html>
